@@ -1,0 +1,31 @@
+Understand Asymptotic Notation
+-----------------------------------
+1.Explain Big O notation and how it helps in analyzing algorithms.
+
+Big O tells us how fast or slow an algorithm grows with input size. It helps us understand performance of our Algorithm
+
+
+
+2.Describe the best, average, and worst-case scenarios for search operations.
+
+Best Case: The item is found at the beginning
+Average Case: The item is found in the middle
+Worst Case: The item is at the end or not present at all
+
+
+
+ANALYSIS
+--------
+1.Compare the time complexity of linear and binary search algorithms.
+
+Linear Search TC :  O(n)
+Binary Search TC : O(log n)
+
+
+
+
+2.Discuss which algorithm is more suitable for your platform and why.
+
+Both has their use cases based on the input and other constraints like
+Linear Search is used when data is unsorted and small
+Binary Search is used when data is sorted and large taking less time

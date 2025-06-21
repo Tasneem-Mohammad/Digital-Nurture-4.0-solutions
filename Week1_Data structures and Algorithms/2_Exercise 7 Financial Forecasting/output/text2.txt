@@ -1,0 +1,17 @@
+Q)Explain the concept of recursion and how it can simplify certain problems.
+
+Recursion is when a function calls itself to solve smaller parts of a problem like Caculating a factorial of number, fiibonacci numbers etc.
+
+Analysis:
+--------
+
+1.Discuss the time complexity of your recursive algorithm.
+
+Depends on how many times the function calls itself and what each call does.
+Eg: for fibanocci O(2^n)
+
+
+2.Explain how to optimize the recursive solution to avoid excessive computation.
+
+Use Memoization/dp
+Store results of already calculated subproblems in an array or map so you don't redo the same work
