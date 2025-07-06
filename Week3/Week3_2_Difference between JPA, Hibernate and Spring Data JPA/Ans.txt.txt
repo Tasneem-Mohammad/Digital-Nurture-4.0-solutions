@@ -1,0 +1,28 @@
+Explain the difference between Java Persistence API, Hibernate and Spring Data JPA
+
+
+1. JPA (Java Persistence API)
+It is a specification (like a set of rules or guidelines).
+Defines how Java objects should be stored in relational databases.
+Part of Java EE (now Jakarta EE).
+Does not provide any implementation—it needs a tool like Hibernate to work.
+Helps standardize persistence code across Java applications.
+
+2. Hibernate
+It is an implementation of JPA (and existed before JPA too).
+It is an ORM (Object-Relational Mapping) framework.
+Handles things like mapping Java classes to tables and SQL generation.
+Provides extra features like lazy loading, caching, and HQL (Hibernate Query Language).
+Can be used with or without JPA, but often used as the JPA provider.
+
+3. Spring Data JPA
+It is a part of the Spring Framework that simplifies JPA usage.
+Built on top of JPA and typically uses Hibernate internally.
+Removes boilerplate code using interfaces like CrudRepository, JpaRepository.
+Supports query creation by method names (e.g., findByName()).
+Makes working with databases in Spring apps much faster and cleaner.
+
+4. How They Work Together
+JPA: Tells how persistence should be done (rules).
+Hibernate: Does the actual work of saving/fetching (tool).
+Spring Data JPA: Makes it easier to use Hibernate + JPA (helper/shortcut).
